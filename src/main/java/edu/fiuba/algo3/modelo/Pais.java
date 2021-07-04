@@ -1,10 +1,11 @@
 package edu.fiuba.algo3.modelo;
 
 public class Pais {
-    int cantidadSoldados;
+    int cantidad;
     String ejercito;
     public Pais(int n, String ejercitoActual) {
-        cantidadSoldados = n;
+        cantidad = n;
         ejercito = ejercitoActual;
+
     }
 }
